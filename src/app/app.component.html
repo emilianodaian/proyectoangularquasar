@@ -1,7 +1,26 @@
-<app-header></app-header>
+<div container-flex>
+    <div class="row" id="head">
+        <app-header></app-header>
+    </div>
+    <div class="row" id="principal">
+        <div class="col-8">
+            
+        </div>
+        <div class="col-4">
+            <app-slidebar></app-slidebar>
+        </div>
 
-<app-footer></app-footer>
+    </div>
+    <div class="row" id="inferior">
+        <app-inferior></app-inferior>
+    </div>
+    <div class="row" id="footer">
+        <app-footer></app-footer>
+    </div>
+    
 
-<app-slidebar></app-slidebar>
+</div>
+
+
 
 <router-outlet></router-outlet>
