@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SlidebarComponent } from './slidebar/slidebar.component';
 import { InferiorComponent } from './inferior/inferior.component';
+import { FormcontactoComponent } from './formcontacto/formcontacto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InferiorComponent } from './inferior/inferior.component';
     HeaderComponent,
     FooterComponent,
     SlidebarComponent,
-    InferiorComponent
+    InferiorComponent,
+    FormcontactoComponent
   ],
   imports: [
     BrowserModule,
